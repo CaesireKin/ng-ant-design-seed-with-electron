@@ -1,3 +1,13 @@
+# How to build
+
++ Since angular `ng build` command will create a directory named same as project in dist, consider write a script or a command to move the build result to the dist dictory
+
++ For a quick look, just run `npm run electron`, this will start the application immediately and link the homepage as dist/index.html
+
+# Package the application
+
++ Make sure you have install electron-packager already, then package application as usual as any electron application( 'electron-packager .')
+
 # NgAntDesignSeed
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.6.
