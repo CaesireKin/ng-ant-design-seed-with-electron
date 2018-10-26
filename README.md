@@ -8,6 +8,10 @@
 
 + Make sure you have install electron-packager already, then package application as usual as any electron application( 'electron-packager .')
 
+# Caution
+
++ If you change the angular index.html, please notice that you have to make sure the index.html  element ` <base href="/">` has been changed to `<base href="./">` correctly
+
 # NgAntDesignSeed
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.6.
